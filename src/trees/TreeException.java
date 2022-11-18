@@ -1,6 +1,8 @@
 package trees;
 
-public class TreeException extends FamilyTree 
+import java.io.*;
+
+public class TreeException extends IOException
 {
 	public TreeException(String s)
 	{
